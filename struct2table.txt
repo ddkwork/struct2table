@@ -1,0 +1,22 @@
+  ───────────────────────────────────────────────────────────────────────────────────────────
+  │Number                         │Name               │Type │Kind    │Tag │Value 
+  ───────────────────────────────────────────────────────────────────────────────────────────
+  │1                              │root_container     │     │struct  │    │      
+  ├───1                           │Binary1            │     │string  │    │      
+  ├───2                           │Message2_container │     │struct  │    │      
+  │   ├───2                       │Packed2_container  │     │slice   │    │      
+  │   │   ├───2                   │[0]_container      │     │invalid │    │      
+  │   │   │   ├───1               │Varint1            │     │uint64  │    │      
+  │   │   │   ├───2               │Binary2            │     │string  │    │      
+  │   │   │   ├───3               │Binary3            │     │string  │    │      
+  │   │   │   └───4               │Binary4            │     │string  │    │      
+  │   │   └───2                   │[1]_container      │     │invalid │    │      
+  │   │   │   ├───1               │Varint1            │     │uint64  │    │      
+  │   │   │   ├───2               │Binary2            │     │string  │    │      
+  │   │   │   ├───3               │Binary3            │     │string  │    │      
+  │   │   │   └───4               │Binary4            │     │string  │    │      
+  │   └───3                       │Binary3            │     │string  │    │      
+  ├───2                           │                   │     │struct  │    │      
+  ├───3                           │Varint3            │     │uint64  │    │      
+  ├───4                           │Binary4            │     │string  │    │      
+  └───5                           │Varint5            │     │uint64  │    │      
