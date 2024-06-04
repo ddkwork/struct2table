@@ -1,12 +1,273 @@
 {
- "UUID": "621e2088-f513-45f0-994a-42f9b21802e7",
- "MetaData": {
+ "id": "42bb85f5-321f-42e4-9425-3734e772ea6d",
+ "type": "root_container",
+ "Data": {
   "Number": 1,
   "Name": "",
   "Kind": 25,
   "Tag": "",
   "ValueAssert": null
  },
+ "children": [
+  {
+   "id": "ea63251b-9237-4867-90d5-4c2ce8d4f7fc",
+   "type": "",
+   "Data": {
+    "Number": 1,
+    "Name": "Binary1",
+    "Kind": 24,
+    "Tag": "",
+    "ValueAssert": "game/system/session/info"
+   },
+   "Columns": null,
+   "PreventUserColumnResize": false
+  },
+  {
+   "id": "4bdc9ef5-4b56-41cb-9d03-e3586fd6fd12",
+   "type": "Message2_container",
+   "Data": {
+    "Number": 2,
+    "Name": "Message2_container",
+    "Kind": 25,
+    "Tag": "",
+    "ValueAssert": null
+   },
+   "children": [
+    {
+     "id": "f984d988-9f31-4479-abd7-21108349d0df",
+     "type": "Packed2_container",
+     "Data": {
+      "Number": 2,
+      "Name": "Packed2_container",
+      "Kind": 23,
+      "Tag": "",
+      "ValueAssert": null
+     },
+     "children": [
+      {
+       "id": "fbadb074-1ed6-4500-80c1-79adcbb1ab37",
+       "type": "[0]_container",
+       "Data": {
+        "Number": 2,
+        "Name": "[0]_container",
+        "Kind": 0,
+        "Tag": "",
+        "ValueAssert": null
+       },
+       "children": [
+        {
+         "id": "4b8ce9e2-fbe4-47d2-8850-2559f1400c04",
+         "type": "",
+         "Data": {
+          "Number": 1,
+          "Name": "Varint1",
+          "Kind": 11,
+          "Tag": "",
+          "ValueAssert": 0
+         },
+         "Columns": null,
+         "PreventUserColumnResize": false
+        },
+        {
+         "id": "5977ccaf-938e-4ed9-8813-e5c363b2a761",
+         "type": "",
+         "Data": {
+          "Number": 2,
+          "Name": "Binary2",
+          "Kind": 24,
+          "Tag": "",
+          "ValueAssert": "d3048a459417e6c0b7d39c971b99a58029f2720f7b2a70c992c826ce48184069"
+         },
+         "Columns": null,
+         "PreventUserColumnResize": false
+        },
+        {
+         "id": "98496942-ed26-4327-af8b-f7966d37e09f",
+         "type": "",
+         "Data": {
+          "Number": 3,
+          "Name": "Binary3",
+          "Kind": 24,
+          "Tag": "",
+          "ValueAssert": "6593D03B-92BC-4BC6-BF54-D16BB0271AF9"
+         },
+         "Columns": null,
+         "PreventUserColumnResize": false
+        },
+        {
+         "id": "b5aed843-6ce9-4f7e-8ef6-fec8b7dd23d3",
+         "type": "",
+         "Data": {
+          "Number": 4,
+          "Name": "Binary4",
+          "Kind": 24,
+          "Tag": "",
+          "ValueAssert": "Apple-iPhone10,3"
+         },
+         "Columns": null,
+         "PreventUserColumnResize": false
+        }
+       ],
+       "Columns": null,
+       "PreventUserColumnResize": false
+      },
+      {
+       "id": "88fbff34-779c-40a0-acbd-931ff7b7d3d8",
+       "type": "[1]_container",
+       "Data": {
+        "Number": 2,
+        "Name": "[1]_container",
+        "Kind": 0,
+        "Tag": "",
+        "ValueAssert": null
+       },
+       "children": [
+        {
+         "id": "7f329da8-8ad2-4601-8ec1-8cf829a2d7e2",
+         "type": "",
+         "Data": {
+          "Number": 1,
+          "Name": "Varint1",
+          "Kind": 11,
+          "Tag": "",
+          "ValueAssert": 1
+         },
+         "Columns": null,
+         "PreventUserColumnResize": false
+        },
+        {
+         "id": "c49d2cc1-0951-46f1-8636-969779fcb904",
+         "type": "",
+         "Data": {
+          "Number": 2,
+          "Name": "Binary2",
+          "Kind": 24,
+          "Tag": "",
+          "ValueAssert": ""
+         },
+         "Columns": null,
+         "PreventUserColumnResize": false
+        },
+        {
+         "id": "0a82d062-7a46-45dd-b846-9f705ed664fd",
+         "type": "",
+         "Data": {
+          "Number": 3,
+          "Name": "Binary3",
+          "Kind": 24,
+          "Tag": "",
+          "ValueAssert": "EAAIe5YPC68wBAPGE5l7JEtIE9BfPQmbcpQ92b0c9fD29vKn5ZCwHkutEjpX2PEcvyBLDqo15gNi1x0VN7U6d26QDaABEDaVzu3vuZBYKtvHH130O9Kna4742s6B8dtr1aKJUw7HuuyNWObpWYZCqBDGvypB7Js93oBISkwWrjbuYZAooY5vHLHFPyuIcLAcV8ZAX9sRFn3un18KZA0MEuDtgekU4ZBTJ1doEQmQ4DCLXwZDZD"
+         },
+         "Columns": null,
+         "PreventUserColumnResize": false
+        },
+        {
+         "id": "8762a06d-48c3-4a6c-9d50-bd5d6ee1d670",
+         "type": "",
+         "Data": {
+          "Number": 4,
+          "Name": "Binary4",
+          "Kind": 24,
+          "Tag": "",
+          "ValueAssert": "_"
+         },
+         "Columns": null,
+         "PreventUserColumnResize": false
+        }
+       ],
+       "Columns": null,
+       "PreventUserColumnResize": false
+      }
+     ],
+     "Columns": null,
+     "PreventUserColumnResize": false
+    },
+    {
+     "id": "67f7a78e-1ff7-43e3-bae4-04277015fe24",
+     "type": "",
+     "Data": {
+      "Number": 3,
+      "Name": "Binary3",
+      "Kind": 24,
+      "Tag": "",
+      "ValueAssert": "6593D03B-92BC-4BC6-BF54-D16BB0271AF9"
+     },
+     "Columns": null,
+     "PreventUserColumnResize": false
+    }
+   ],
+   "Columns": null,
+   "PreventUserColumnResize": false
+  },
+  {
+   "id": "c97d7e00-2a6c-4833-8110-812858e10b48",
+   "type": "",
+   "Data": {
+    "Number": 2,
+    "Name": "",
+    "Kind": 25,
+    "Tag": "",
+    "ValueAssert": {
+     "Packed2": [
+      {
+       "Varint1": 0,
+       "Binary2": "d3048a459417e6c0b7d39c971b99a58029f2720f7b2a70c992c826ce48184069",
+       "Binary3": "6593D03B-92BC-4BC6-BF54-D16BB0271AF9",
+       "Binary4": "Apple-iPhone10,3"
+      },
+      {
+       "Varint1": 1,
+       "Binary2": "",
+       "Binary3": "EAAIe5YPC68wBAPGE5l7JEtIE9BfPQmbcpQ92b0c9fD29vKn5ZCwHkutEjpX2PEcvyBLDqo15gNi1x0VN7U6d26QDaABEDaVzu3vuZBYKtvHH130O9Kna4742s6B8dtr1aKJUw7HuuyNWObpWYZCqBDGvypB7Js93oBISkwWrjbuYZAooY5vHLHFPyuIcLAcV8ZAX9sRFn3un18KZA0MEuDtgekU4ZBTJ1doEQmQ4DCLXwZDZD",
+       "Binary4": "_"
+      }
+     ],
+     "Binary3": "6593D03B-92BC-4BC6-BF54-D16BB0271AF9"
+    }
+   },
+   "Columns": null,
+   "PreventUserColumnResize": false
+  },
+  {
+   "id": "6d07370e-fe91-45ea-b3e7-9c3d5c1f90f6",
+   "type": "",
+   "Data": {
+    "Number": 3,
+    "Name": "Varint3",
+    "Kind": 11,
+    "Tag": "",
+    "ValueAssert": 0
+   },
+   "Columns": null,
+   "PreventUserColumnResize": false
+  },
+  {
+   "id": "bd9c280f-fc47-47e3-8fb3-df9884a3bea6",
+   "type": "",
+   "Data": {
+    "Number": 4,
+    "Name": "Binary4",
+    "Kind": 24,
+    "Tag": "",
+    "ValueAssert": ""
+   },
+   "Columns": null,
+   "PreventUserColumnResize": false
+  },
+  {
+   "id": "c4c427fd-3939-4718-a629-e3c90729d553",
+   "type": "",
+   "Data": {
+    "Number": 5,
+    "Name": "Varint5",
+    "Kind": 11,
+    "Tag": "",
+    "ValueAssert": 0
+   },
+   "Columns": null,
+   "PreventUserColumnResize": false
+  }
+ ],
  "Columns": [
   {
    "ID": 0,
@@ -70,281 +331,6 @@
    "AutoMinimum": 0,
    "AutoMaximum": 0,
    "Cell": "ValueAssert"
-  }
- ],
- "Type": "root_container",
- "Children": [
-  {
-   "UUID": "96e8f374-cfe7-445e-8a90-cae4c38ff642",
-   "MetaData": {
-    "Number": 1,
-    "Name": "Binary1",
-    "Kind": 24,
-    "Tag": "",
-    "ValueAssert": "game/system/session/info"
-   },
-   "Columns": null,
-   "Type": "",
-   "Children": null,
-   "PreventUserColumnResize": false
-  },
-  {
-   "UUID": "cfe2335c-7bbc-4963-8347-6784ed0d9b4d",
-   "MetaData": {
-    "Number": 2,
-    "Name": "Message2_container",
-    "Kind": 25,
-    "Tag": "",
-    "ValueAssert": null
-   },
-   "Columns": null,
-   "Type": "Message2_container",
-   "Children": [
-    {
-     "UUID": "7687deab-425f-4926-9d9d-cfe0c730ae21",
-     "MetaData": {
-      "Number": 2,
-      "Name": "Packed2_container",
-      "Kind": 23,
-      "Tag": "",
-      "ValueAssert": null
-     },
-     "Columns": null,
-     "Type": "Packed2_container",
-     "Children": [
-      {
-       "UUID": "ffff4e85-eac6-4266-a441-bface4fda60b",
-       "MetaData": {
-        "Number": 2,
-        "Name": "[0]_container",
-        "Kind": 0,
-        "Tag": "",
-        "ValueAssert": null
-       },
-       "Columns": null,
-       "Type": "[0]_container",
-       "Children": [
-        {
-         "UUID": "edca56b8-c193-4704-bc7d-2aaf2132e7d4",
-         "MetaData": {
-          "Number": 1,
-          "Name": "Varint1",
-          "Kind": 11,
-          "Tag": "",
-          "ValueAssert": 0
-         },
-         "Columns": null,
-         "Type": "",
-         "Children": null,
-         "PreventUserColumnResize": false
-        },
-        {
-         "UUID": "5a833e9a-8960-457e-b2d8-23cf42ab8918",
-         "MetaData": {
-          "Number": 2,
-          "Name": "Binary2",
-          "Kind": 24,
-          "Tag": "",
-          "ValueAssert": "d3048a459417e6c0b7d39c971b99a58029f2720f7b2a70c992c826ce48184069"
-         },
-         "Columns": null,
-         "Type": "",
-         "Children": null,
-         "PreventUserColumnResize": false
-        },
-        {
-         "UUID": "bd25c7a7-7aad-49c4-b47a-00d3d7b19f08",
-         "MetaData": {
-          "Number": 3,
-          "Name": "Binary3",
-          "Kind": 24,
-          "Tag": "",
-          "ValueAssert": "6593D03B-92BC-4BC6-BF54-D16BB0271AF9"
-         },
-         "Columns": null,
-         "Type": "",
-         "Children": null,
-         "PreventUserColumnResize": false
-        },
-        {
-         "UUID": "91e5ee0d-3f60-485f-ba11-9e690e9e452a",
-         "MetaData": {
-          "Number": 4,
-          "Name": "Binary4",
-          "Kind": 24,
-          "Tag": "",
-          "ValueAssert": "Apple-iPhone10,3"
-         },
-         "Columns": null,
-         "Type": "",
-         "Children": null,
-         "PreventUserColumnResize": false
-        }
-       ],
-       "PreventUserColumnResize": false
-      },
-      {
-       "UUID": "4a25e3bc-100b-444d-8f24-d1c3312242d5",
-       "MetaData": {
-        "Number": 2,
-        "Name": "[1]_container",
-        "Kind": 0,
-        "Tag": "",
-        "ValueAssert": null
-       },
-       "Columns": null,
-       "Type": "[1]_container",
-       "Children": [
-        {
-         "UUID": "27c85902-3d69-4629-a2ea-dda9ac7a0a02",
-         "MetaData": {
-          "Number": 1,
-          "Name": "Varint1",
-          "Kind": 11,
-          "Tag": "",
-          "ValueAssert": 1
-         },
-         "Columns": null,
-         "Type": "",
-         "Children": null,
-         "PreventUserColumnResize": false
-        },
-        {
-         "UUID": "bb6a00a8-3564-4cf0-b474-3375ff45d3b3",
-         "MetaData": {
-          "Number": 2,
-          "Name": "Binary2",
-          "Kind": 24,
-          "Tag": "",
-          "ValueAssert": ""
-         },
-         "Columns": null,
-         "Type": "",
-         "Children": null,
-         "PreventUserColumnResize": false
-        },
-        {
-         "UUID": "417762fa-8949-43ef-af33-3c02a40957bc",
-         "MetaData": {
-          "Number": 3,
-          "Name": "Binary3",
-          "Kind": 24,
-          "Tag": "",
-          "ValueAssert": "EAAIe5YPC68wBAPGE5l7JEtIE9BfPQmbcpQ92b0c9fD29vKn5ZCwHkutEjpX2PEcvyBLDqo15gNi1x0VN7U6d26QDaABEDaVzu3vuZBYKtvHH130O9Kna4742s6B8dtr1aKJUw7HuuyNWObpWYZCqBDGvypB7Js93oBISkwWrjbuYZAooY5vHLHFPyuIcLAcV8ZAX9sRFn3un18KZA0MEuDtgekU4ZBTJ1doEQmQ4DCLXwZDZD"
-         },
-         "Columns": null,
-         "Type": "",
-         "Children": null,
-         "PreventUserColumnResize": false
-        },
-        {
-         "UUID": "bd5e47c9-763e-4269-aa17-3e8cf61afb8c",
-         "MetaData": {
-          "Number": 4,
-          "Name": "Binary4",
-          "Kind": 24,
-          "Tag": "",
-          "ValueAssert": "_"
-         },
-         "Columns": null,
-         "Type": "",
-         "Children": null,
-         "PreventUserColumnResize": false
-        }
-       ],
-       "PreventUserColumnResize": false
-      }
-     ],
-     "PreventUserColumnResize": false
-    },
-    {
-     "UUID": "393e31ab-9466-4e99-91a8-71d5b6d9f59c",
-     "MetaData": {
-      "Number": 3,
-      "Name": "Binary3",
-      "Kind": 24,
-      "Tag": "",
-      "ValueAssert": "6593D03B-92BC-4BC6-BF54-D16BB0271AF9"
-     },
-     "Columns": null,
-     "Type": "",
-     "Children": null,
-     "PreventUserColumnResize": false
-    }
-   ],
-   "PreventUserColumnResize": false
-  },
-  {
-   "UUID": "7e99a63a-6a00-4e3f-a4d2-2197b6331200",
-   "MetaData": {
-    "Number": 2,
-    "Name": "",
-    "Kind": 25,
-    "Tag": "",
-    "ValueAssert": {
-     "Packed2": [
-      {
-       "Varint1": 0,
-       "Binary2": "d3048a459417e6c0b7d39c971b99a58029f2720f7b2a70c992c826ce48184069",
-       "Binary3": "6593D03B-92BC-4BC6-BF54-D16BB0271AF9",
-       "Binary4": "Apple-iPhone10,3"
-      },
-      {
-       "Varint1": 1,
-       "Binary2": "",
-       "Binary3": "EAAIe5YPC68wBAPGE5l7JEtIE9BfPQmbcpQ92b0c9fD29vKn5ZCwHkutEjpX2PEcvyBLDqo15gNi1x0VN7U6d26QDaABEDaVzu3vuZBYKtvHH130O9Kna4742s6B8dtr1aKJUw7HuuyNWObpWYZCqBDGvypB7Js93oBISkwWrjbuYZAooY5vHLHFPyuIcLAcV8ZAX9sRFn3un18KZA0MEuDtgekU4ZBTJ1doEQmQ4DCLXwZDZD",
-       "Binary4": "_"
-      }
-     ],
-     "Binary3": "6593D03B-92BC-4BC6-BF54-D16BB0271AF9"
-    }
-   },
-   "Columns": null,
-   "Type": "",
-   "Children": null,
-   "PreventUserColumnResize": false
-  },
-  {
-   "UUID": "1fc48d74-d996-43a3-963b-5cc73c95cdd6",
-   "MetaData": {
-    "Number": 3,
-    "Name": "Varint3",
-    "Kind": 11,
-    "Tag": "",
-    "ValueAssert": 0
-   },
-   "Columns": null,
-   "Type": "",
-   "Children": null,
-   "PreventUserColumnResize": false
-  },
-  {
-   "UUID": "d83a1de1-9347-468d-8042-a101d19eb994",
-   "MetaData": {
-    "Number": 4,
-    "Name": "Binary4",
-    "Kind": 24,
-    "Tag": "",
-    "ValueAssert": ""
-   },
-   "Columns": null,
-   "Type": "",
-   "Children": null,
-   "PreventUserColumnResize": false
-  },
-  {
-   "UUID": "131224a1-89d2-430f-a469-4c00bcb98158",
-   "MetaData": {
-    "Number": 5,
-    "Name": "Varint5",
-    "Kind": 11,
-    "Tag": "",
-    "ValueAssert": 0
-   },
-   "Columns": null,
-   "Type": "",
-   "Children": null,
-   "PreventUserColumnResize": false
   }
  ],
  "PreventUserColumnResize": false
