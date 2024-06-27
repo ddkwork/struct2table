@@ -9,6 +9,6 @@ import (
 
 func main() {
 	app.Run("struct2table", func(w *unison.Window) {
-		struct2table.New().Layout(w.Content())
+		w.Content().AddChild(struct2table.New().Layout())
 	})
 }
